@@ -80,9 +80,15 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="frmAdmin.aspx" />
+    <Content Include="frmAsignacionConductorVehiculo.aspx" />
+    <Content Include="frmAsignacionRutaVehiculo.aspx" />
     <Content Include="frmInfoNosotros.aspx" />
     <Content Include="frmIniciarSesion.aspx" />
+    <Content Include="frmRegistrarConductor.aspx" />
     <Content Include="frmRegistrarme.aspx" />
+    <Content Include="frmRegistrarRutas.aspx" />
+    <Content Include="frmRegistrarVehiculo.aspx" />
+    <Content Include="frmRegistrarViajes.aspx" />
     <Content Include="frmReservas.aspx" />
     <Content Include="frmRutas.aspx" />
     <Content Include="frmServicioCliente.aspx" />
@@ -125,6 +131,20 @@
     <Compile Include="frmAdmin.aspx.designer.cs">
       <DependentUpon>frmAdmin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmAsignacionConductorVehiculo.aspx.cs">
+      <DependentUpon>frmAsignacionConductorVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAsignacionConductorVehiculo.aspx.designer.cs">
+      <DependentUpon>frmAsignacionConductorVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignacionRutaVehiculo.aspx.cs">
+      <DependentUpon>frmAsignacionRutaVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAsignacionRutaVehiculo.aspx.designer.cs">
+      <DependentUpon>frmAsignacionRutaVehiculo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frmInfoNosotros.aspx.cs">
       <DependentUpon>frmInfoNosotros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,12 +159,40 @@
     <Compile Include="frmIniciarSesion.aspx.designer.cs">
       <DependentUpon>frmIniciarSesion.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistrarConductor.aspx.cs">
+      <DependentUpon>frmRegistrarConductor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarConductor.aspx.designer.cs">
+      <DependentUpon>frmRegistrarConductor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frmRegistrarme.aspx.cs">
       <DependentUpon>frmRegistrarme.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmRegistrarme.aspx.designer.cs">
       <DependentUpon>frmRegistrarme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarRutas.aspx.cs">
+      <DependentUpon>frmRegistrarRutas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarRutas.aspx.designer.cs">
+      <DependentUpon>frmRegistrarRutas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarVehiculo.aspx.cs">
+      <DependentUpon>frmRegistrarVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarVehiculo.aspx.designer.cs">
+      <DependentUpon>frmRegistrarVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarViajes.aspx.cs">
+      <DependentUpon>frmRegistrarViajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarViajes.aspx.designer.cs">
+      <DependentUpon>frmRegistrarViajes.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmReservas.aspx.cs">
       <DependentUpon>frmReservas.aspx</DependentUpon>
