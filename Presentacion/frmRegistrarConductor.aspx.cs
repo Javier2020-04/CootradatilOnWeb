@@ -13,5 +13,15 @@ namespace Presentacion
         {
 
         }
+
+        protected void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void tbnReset_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
