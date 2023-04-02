@@ -82,6 +82,7 @@
     <Content Include="frmAdmin.aspx" />
     <Content Include="frmAsignacionConductorVehiculo.aspx" />
     <Content Include="frmAsignacionRutaVehiculo.aspx" />
+    <Content Include="frmIndex1.aspx" />
     <Content Include="frmInfoNosotros.aspx" />
     <Content Include="frmIniciarSesion.aspx" />
     <Content Include="frmRegistrarConductor.aspx" />
@@ -92,6 +93,7 @@
     <Content Include="frmReservas.aspx" />
     <Content Include="frmRutas.aspx" />
     <Content Include="frmServicioCliente.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="img\main_banner.jpg" />
     <Content Include="img\close.png" />
     <Content Include="img\featured_item_1.jpg" />
@@ -144,6 +146,13 @@
     </Compile>
     <Compile Include="frmAsignacionRutaVehiculo.aspx.designer.cs">
       <DependentUpon>frmAsignacionRutaVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndex1.aspx.cs">
+      <DependentUpon>frmIndex1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmIndex1.aspx.designer.cs">
+      <DependentUpon>frmIndex1.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmInfoNosotros.aspx.cs">
       <DependentUpon>frmInfoNosotros.aspx</DependentUpon>
@@ -214,6 +223,9 @@
     </Compile>
     <Compile Include="frmServicioCliente.aspx.designer.cs">
       <DependentUpon>frmServicioCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="masterAdmin.Master.cs">
       <DependentUpon>masterAdmin.Master</DependentUpon>

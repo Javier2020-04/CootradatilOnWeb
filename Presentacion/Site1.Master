@@ -49,17 +49,23 @@
                         <nav id="primary-nav" class="dropdown cf">
                             <ul class="dropdown menu">
                                 <li class='active' style="background-color: #F7F6F3"><a href="frmIndex.aspx">Home</a></li>
-                                <li class='active' style="background-color: #F7F6F3"><a href="frmIniciarSesion.aspx">Iniciar Sesión</a></li>
                                 <asp:Menu ID="Menu1" runat="server" StaticSubMenuIndent="10px" Orientation="Horizontal" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Bold="True" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57">
                                     <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
                                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                                     <DynamicMenuStyle BackColor="#F7F6F3" />
                                     <DynamicSelectedStyle BackColor="#5D7B9D" />
                                     <Items>
+                                        <asp:MenuItem Text="Iniciar sesión" Value="inicioSesion">
+                                            <asp:MenuItem Text="Usuario" Value="Reservas" NavigateUrl="~/frmReservas.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem Text="Administrador" Value="Rutas" NavigateUrl="~/frmRegistrarRutas.aspx">
+                                            </asp:MenuItem>
+                                        </asp:MenuItem>
                                         <asp:MenuItem Text="Nuestros servicios" Value="Nuestros servicios">
                                             <asp:MenuItem Text="Reservas" Value="Reservas" NavigateUrl="~/frmReservas.aspx">
                                             </asp:MenuItem>
-                                            <asp:MenuItem Text="Rutas" Value="Rutas" NavigateUrl="~/frmRutas.aspx"></asp:MenuItem>
+                                            <asp:MenuItem Text="Rutas" Value="Rutas" NavigateUrl="~/frmRutas.aspx">
+                                            </asp:MenuItem>
                                         </asp:MenuItem>
                                         <asp:MenuItem Text="Información" Value="Información">
                                             <asp:MenuItem Text="Servicio al cliente" Value="Servicio al cliente" NavigateUrl="~/frmServicioCliente.aspx">
